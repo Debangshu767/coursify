@@ -52,7 +52,7 @@ export default function SleekCarousel() {
 
   return (
     <div>
-      <Slider {...settings} className=' max-w-[900px] m-auto '>
+      <Slider {...settings} className=' max-w-[900px] m-auto overflow-x-hidden '>
         {people.map((person, i) => {
           console.log(person)
           return (
