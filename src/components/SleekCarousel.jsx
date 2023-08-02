@@ -45,14 +45,15 @@ export default function SleekCarousel() {
     dots: true,
     fade: true,
     infinite: true,
-    speed: 200,
+    speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    arrows: true
   }
 
   return (
     <div>
-      <Slider {...settings} className=' max-w-[900px] m-auto overflow-x-hidden overflow-y-visible '>
+      <Slider {...settings} className='  overflow-hidden '>
         {people.map((person, i) => {
           console.log(person)
           return (
