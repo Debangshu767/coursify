@@ -53,7 +53,7 @@ export default function SleekCarousel() {
 
   return (
     <div>
-      <Slider {...settings} className='  overflow-hidden '>
+      <Slider {...settings} className=' overflow-y-visible '>
         {people.map((person, i) => {
           console.log(person)
           return (
