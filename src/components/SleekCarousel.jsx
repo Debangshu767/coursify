@@ -48,7 +48,10 @@ export default function SleekCarousel() {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      adaptiveHeight: true
+      adaptiveHeight: true,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      cssEase: "linear"
 
   }
 
