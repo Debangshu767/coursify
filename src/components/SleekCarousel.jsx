@@ -42,18 +42,19 @@ export default function SleekCarousel() {
 
 
   const settings = {
-    dclassName: "",
     dots: true,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    adaptiveHeight: true,
-    focusOnSelect: true,
+      fade: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: true
+
   }
 
   return (
     <div>
-      <Slider {...settings} className='overflow-x-hidden '>
+      <Slider {...settings} className=' overflow-hidden'>
         {people.map((person, i) => {
           console.log(person)
           return (
