@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import Diagrams from '../components/Diagrams'
 import Info from '../components/Info'
+import Carousel from '../components/Carousel'
+import SleekCarousel from '../components/SleekCarousel'
 
 function Home() {
   return (
@@ -12,6 +14,7 @@ function Home() {
       <HeroSection/>
       <Diagrams/>
       <Info/>
+      <SleekCarousel  />
 
 
     </div>
