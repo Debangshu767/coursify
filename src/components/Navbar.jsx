@@ -8,7 +8,7 @@ function Navbar() {
     <div className='flex justify-between m-auto items-center p-2 max-w-[900px]' >
         <Link className=' flex items-center gap-1 p-2 '>
         <FaContao className=' text-xl text-blue-500 md:text-2xl '/>
-        <h1 className='font-sans text-xl font-extrabold uppercase text-blue-500 md:text-2xl ' >Coursify</h1>
+        <h1 className='font-sans text-xl font-extrabold uppercase text-blue-500 md:text-2xl ' >Career U</h1>
         </Link>
 
         <div className='flex items-center p-2 gap-2 md:gap-4' >

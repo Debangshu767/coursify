@@ -7,7 +7,7 @@ function Info() {
   return (
     <div>
         
-        <h1 className=' text-3xl font-thin text-center mt-8 text-slate-600 ' > What can Coursify do for you ? </h1>
+        <h1 className=' text-3xl font-thin text-center mt-8 text-slate-600 ' > What can Career U do for you ? </h1>
 
         <div>
 
@@ -31,7 +31,7 @@ function Info() {
 
                 <div>
                     <h2 className=' text-lg uppercase font-bold text-blue-500 border-b-2 border-blue-300'  >Recruit 10x tech talent, zero backouts.</h2>
-                    <p className='text-lg font-light max-w-[600px] ' > India's #1 tech hiring platform, Coursify, facilitates connections with top talent, enabling faster execution of your vision through seamless engagement and successful position closures.</p>
+                    <p className='text-lg font-light max-w-[600px] ' > India's #1 tech hiring platform, Career U, facilitates connections with top talent, enabling faster execution of your vision through seamless engagement and successful position closures.</p>
                     <div className='flex items-center p-2 gap-2 md:gap-4' >
           <Link className=' bg-blue-500 rounded-3xl p-2 px-4 text-white font-bold text-xs hover:bg-blue-700 ' >Hire Top talent now</Link>
           <Link className=' border-2 border-blue-500 text-blue-500 rounded-3xl p-2 px-4 font-bold text-xs hover:bg-slate-200 ' >View Pricing</Link>

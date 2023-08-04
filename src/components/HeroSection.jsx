@@ -8,7 +8,7 @@ function HeroSection() {
             
          <div className='flex flex-col justify-center items-center gap-4'>
             <h1 className=' px-8 text-center text-3xl font-bold text-white ' >In the tech world, true potential blossoms</h1>
-            <h1 className=' px-6 text-center text-lg font-normal text-white max-w-[900px] ' > Unveil hidden opportunities with Cutshort, where techies can effortlessly connect with exceptional companies, unlocking secret job openings through valuable referrals. </h1>
+            <h1 className=' px-6 text-center text-lg font-normal text-white max-w-[900px] ' > Unveil hidden opportunities with Career U, where techies can effortlessly connect with exceptional companies, unlocking secret job openings through valuable referrals. </h1>
         </div>   
         <div className='w-[5000px] h-full top-[-10%] absolute bg-gradient-to-b from-blue-500 to-blue-700 -z-10 rotate-3 ' ></div>
         <div className='w-[5000px] h-full top-[-10%] absolute bg-gradient-to-b from-blue-200 to-blue-400 -z-20 -rotate-2 ' ></div>
